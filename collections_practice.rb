@@ -4,5 +4,5 @@ def sort_array_asc(nums)
 end
 
 def sort_array_desc(nums)
-  nums.descending
+  nums.sort.reverse
 end
