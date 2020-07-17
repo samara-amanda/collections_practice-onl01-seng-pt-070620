@@ -8,5 +8,6 @@ def sort_array_desc(nums)
 end
 
 def sort_array_char_count(array)
-  array.length.sort
+  array.sort_by do |character|
+    character.length
 end
