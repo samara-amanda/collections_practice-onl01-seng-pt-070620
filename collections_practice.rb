@@ -12,5 +12,3 @@ def sort_array_char_count(array)
     character.length
   end
 end
-
-
